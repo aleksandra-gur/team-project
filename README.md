@@ -41,7 +41,7 @@
 ### 4. Работа с изменениями других участников
 Участники команды начали параллельно работать над проектом в ветке `main`. Каждый создал и модифицировал свои текстовые или программные файлы, отражающие их часть работы. Перед отправкой своих файлов каждый участник запрашивал изменения из общего репозитория (`git pull`).
 *   Скачивание изменений Bilol: ![Pull Bilol](screenshots/04_pull_Bilol%20copy.png)
-*   Скачивание изменений GrinkoMaria: ![Pull GrinkoMaria](screenshots/04_pull_GrinkoMaria.png)
+*   Скачивание изменений GrinkoMaria: ![Pull GrinkoMaria](screenshots/04_pull_GrinkoMaria.png.png)
 *   Скачивание изменений sonikoku: ![Pull sonikoku](screenshots/04_pull_sonikoku.png)
 
 ### 5. Ошибка при Push без Pull
