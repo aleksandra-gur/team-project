@@ -40,9 +40,9 @@
 
 ### 4. Работа с изменениями других участников
 Участники команды начали параллельно работать над проектом в ветке `main`. Каждый создал и модифицировал свои текстовые или программные файлы, отражающие их часть работы. Перед отправкой своих файлов каждый участник запрашивал изменения из общего репозитория (`git pull`).
-*   Скачивание изменений Bilol: `![Pull Bilol](screenshots/04_pull_Bilol copy.png)`
-*   Скачивание изменений GrinkoMaria: `![Pull GrinkoMaria](screenshots/04_pull_GrinkoMaria.png)`
-*   Скачивание изменений sonikoku: `![Pull sonikoku](screenshots/04_pull_sonikoku.png)`
+*   Скачивание изменений Bilol: ![Pull Bilol](screenshots/04_pull_Bilol%20copy.png)
+*   Скачивание изменений GrinkoMaria: ![Pull GrinkoMaria](screenshots/04_pull_GrinkoMaria.png)
+*   Скачивание изменений sonikoku: ![Pull sonikoku](screenshots/04_pull_sonikoku.png)
 
 ### 5. Ошибка при Push без Pull
 **Описание проблемы:** При попытке отправить локальные коммиты на GitHub сервер отклонил запрос (`push rejected`), так как удаленная ветка содержала коммиты других участников, которых еще не было на локальном компьютере.
@@ -52,8 +52,8 @@
 ### 6. Merge conflict
 **Описание проблемы:** Возник конфликт слияния (Merge Conflict), когда два участника одновременно отредактировали одну и ту же строчку в одном и том же файле и попытались отправить изменения. Git не смог автоматически решить, какую версию оставить.
 **Решение:** Конфликтный файл был открыт в редакторе кода. Были вручную удалены маркеры конфликта (`<<<<<<<`, `=======`, `>>>>>>>`), выбрана финальная корректная версия кода, после чего изменения были закоммичены и отправлены в репозиторий.
-*   Появление конфликта: `![Конфликт слияния](screenshots/07_merge_conflict.png)`
-*   Разрешение конфликта: `![Конфликт разрешен](screenshots/08_conflict_resolved.png)`
+*   Появление конфликта: ![Конфликт слияния](screenshots/07_merge_conflict.png)
+*   Разрешение конфликта: ![Конфликт разрешен](screenshots/08_conflict_resolved.png)
 
 ### 7. Работа с ветками
 Чтобы избежать постоянных конфликтов в основной ветке `main`, команда перешла на использование Git Flow. Каждый участник создал свою изолированную ветку для выполнения задач.
@@ -61,31 +61,31 @@
 ### 8. Pull Request
 Участники загрузили свои ветки на GitHub и создали запросы на слияние (Pull Requests) в ветку `main`. Другие члены команды провели код-ревью (Review), проверили код на ошибки и одобрили слияние, после чего ветки были успешно объединены.
 *   **Создание Pull Requests:**
-    *   Создан GrinkoMaria: `![PR GrinkoMaria](screenshots/09_pull_request_GrinkoMaria.png)`
-    *   Создан sonikoku: `![PR sonikoku](screenshots/09_pull_request_sonikoku.png)`
-    *   Создан Bilol: `![PR Bilol](screenshots/09_pull_request._Bilol.png)`
+    *   Создан GrinkoMaria: ![PR GrinkoMaria](screenshots/09_pull_request_GrinkoMaria.png)
+    *   Создан sonikoku: ![PR sonikoku](screenshots/09_pull_request_sonikoku.png)
+    *   Создан Bilol: ![PR Bilol](screenshots/09_pull_request._Bilol.png)
 *   **Проверка (Review):**
-    *   Ревью для Bilol: `![Review Bilol](screenshots/10_pull_request_review_Bilol.png)`
-    *   Ревью для GrinkoMaria: `![Review GrinkoMaria](screenshots/10_pull_request_review_GrinkoMaria.png)`
-    *   Ревью для sonikoku: `![Review sonikoku](screenshots/10_pull_request_review_sonikoku.png)`
+    *   Ревью для Bilol: ![Review Bilol](screenshots/10_pull_request_review_Bilol.png)
+    *   Ревью для GrinkoMaria: ![Review GrinkoMaria](screenshots/10_pull_request_review_GrinkoMaria.png)
+    *   Ревью для sonikoku: ![Review sonikoku](screenshots/10_pull_request_review_sonikoku.png)
 *   **Успешное слияние (Merged):**
-    *   Слияние ветки GrinkoMaria: `![Merged GrinkoMaria](screenshots/11_pull_request_merged_GrinkoMaria.png)`
-    *   Слияние ветки sonikoku: `![Merged sonikoku](screenshots/11_pull_request_merged_sonikoku.png)`
-    *   Слияние ветки Bilol: `![Merged Bilol](screenshots/11_pull_request_merged._Bilol.png)`
+    *   Слияние ветки GrinkoMaria: ![Merged GrinkoMaria](screenshots/11_pull_request_merged_GrinkoMaria.png)
+    *   Слияние ветки sonikoku: ![Merged sonikoku](screenshots/11_pull_request_merged_sonikoku.png)
+    *   Слияние ветки Bilol: ![Merged Bilol](screenshots/11_pull_request_merged._Bilol.png)
 
 ### 9. Конфликт в Pull Request
 **Описание проблемы:** При попытке влить одну из веток через интерфейс GitHub возник конфликт слияния (PR Conflict), так как целевая ветка `main` уже ушла вперед и содержала изменения в тех же строках.
 **Решение:** Конфликт был разрешен локально или прямо в веб-интерфейсе GitHub (через встроенный редактор конфликтов), после чего Pull Request был успешно закрыт.
-*   Конфликт в PR: `![Конфликт в PR](screenshots/12_pr_conflict.png)`
-*   Разрешение конфликта в PR: `![Конфликт в PR разрешен](screenshots/13_pr_conflict_resolved.png)`
+*   Конфликт в PR: ![Конфликт в PR](screenshots/12_pr_conflict.png)
+*   Разрешение конфликта в PR: ![Конфликт в PR разрешен](screenshots/13_pr_conflict_resolved.png)
 
 ### 10. Fetch и Pull
 В процессе работы команда изучила разницу между получением данных:
 *   `git fetch` — скачивает новые данные из удаленного репозитория, но не объединяет их с локальным кодом (безопасный просмотр изменений).
 *   `git pull` — скачивает данные и сразу автоматически пытается влить их в текущую локальную ветку (эквивалентно `fetch` + `merge`).
-*   Получение изменений GrinkoMaria: `![Fetch GrinkoMaria](screenshots/14_fetch_changes_GrinkoMaria.png)`
-*   Получение изменений sonikoku: `![Fetch sonikoku](screenshots/14_fetch_changes_sonikoku.png)`
-*   Получение изменений Bilol: `![Fetch Bilol](screenshots/14_fetch_changes._Bilol.png)`
+*   Получение изменений GrinkoMaria: ![Fetch GrinkoMaria](screenshots/14_fetch_changes_GrinkoMaria.png)
+*   Получение изменений sonikoku: ![Fetch sonikoku](screenshots/14_fetch_changes_sonikoku.png)
+*   Получение изменений Bilol: ![Fetch Bilol](screenshots/14_fetch_changes._Bilol.png)
 
 ## История коммитов
 На скриншоте представлена полная и чистая история коммитов команды, отображающая последовательное добавление фич, создание веток и успешные слияния Pull Request.
@@ -114,10 +114,6 @@
 Fetch позволяет увидеть, что на GitHub появились новые изменения, но не
 применяет их сразу к локальным файлам. Pull получает изменения и сразу
 объединяет их с текущей рабочей версией.
-
-Вот ёмкие и готовые к вставке ответы (можно скопировать прямо в комментарии или `README.md`):
-
----
 
 1. **Репозиторий** — это хранилище кода с историей всех изменений (включая файлы, папки, коммиты и ветки).
 
