@@ -27,11 +27,12 @@
 Создатель репозитория настроил совместный доступ к проекту, добавив остальных участников команды в качестве Collaborators в настройках GitHub. Каждый участник получил и принял приглашение на email.
 ![Добавление участников](screenshots/01_collaborators.png)
 
+
 ### 2. Клонирование проекта
 После получения доступа каждый участник команды клонировал удаленный репозиторий на свое локальное устройство с помощью команды `git clone`.
-*   Скриншот участника Bilol: `![Клонирование Bilol](screenshots/02_clone_bilol.png)`
-*   Скриншот участника GrinkoMaria: `![Клонирование GrinkoMaria](screenshots/02_clone_GrinkoMaria.png.png)`
-*   Скриншот участника sonikoku: `![Клонирование sonikoku](screenshots/02_clone_sonikoku.png)`
+*   Скриншот участника Bilol: ![Клонирование Bilol](screenshots/02_clone_bilol.png)
+*   Скриншот участника GrinkoMaria: ![Клонирование GrinkoMaria](screenshots/02_clone_GrinkoMaria.png.png)
+*   Скриншот участника sonikoku: ![Клонирование sonikoku](screenshots/02_clone_sonikoku.png)
 
 ### 3. Первый push
 Один из участников внес стартовые изменения в локальный репозиторий и успешно отправил их на GitHub, зафиксировав базовую структуру проекта.
